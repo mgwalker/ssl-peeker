@@ -1,0 +1,18 @@
+{
+  "name": "ssl-peeker",
+  "version": "1.0.0",
+  "description": "Get info about a server's SSL/TLS certificates and capabilities",
+  "main": "bin/main.js",
+  "keywords": [
+    "ssl",
+    "tls",
+    "cipher",
+    "certificate"
+  ],
+  "author": "Greg Walker <ssl-peeker@darkcooger.net>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "mgwalker/ssl-peeker"
+  }
+}
