@@ -4,15 +4,34 @@
   "description": "Get info about a server's SSL/TLS certificates and capabilities",
   "main": "bin/main.js",
   "keywords": [
-    "ssl",
-    "tls",
+    "certificate",
     "cipher",
-    "certificate"
+    "ssl",
+    "tls"
   ],
   "author": "Greg Walker <ssl-peeker@darkcooger.net>",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "mgwalker/ssl-peeker"
+  },
+  "files": [
+    "bin/main.js"
+  ],
+  "bin": {
+    "ssl-peeker": "bin/main.js"
+  },
+  "scripts": {
+    "build": "babel --no-comments --compact -d bin src",
+    "prebuild": "cooger-style src/main.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.8.1",
+    "sslinfo": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "cooger-style": "^1.0.2"
   }
 }
