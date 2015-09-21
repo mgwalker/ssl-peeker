@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "chalk": "^1.1.1",
-    "commander": "^2.8.1",
     "sslinfo": "^0.1.3"
   },
   "devDependencies": {
