@@ -17,7 +17,7 @@ if (process.argv.length < 3) {
 
 	console.log("==================================================");
 	console.log(`  Peeking at ${hostname}:${port}`);
-	
+
 	sslinfo.getServerResults({ host: hostname, port: port })
 		.done(function(results) {
 			console.log("--- Certificate ----------------------------------");
@@ -31,15 +31,15 @@ if (process.argv.length < 3) {
 			console.log(`    Until: ${results.cert.notAfter}`);
 			console.log("--- Protocols ------------------------------------");
 			for (const proto of results.protocols) {
-				console.log(`  ${proto.name} - ${proto.enabled ? chalk.green("ENABLED") : chalk.red("disabled")}`);
+				console.log(`  ${proto.name} - ${proto.enabled ? chalk.green("ENABLED") : chalk.red(`${proto.error ? chalk.magenta(`unknown - ${proto.error}`) : "disabled"}`)}`);
 			}
 			console.log("--- Ciphers --------------------------------------");
 			for (let cipherMethod in results.ciphers) {
 				if (results.ciphers.hasOwnProperty(cipherMethod)) {
 					const cipherFamily = results.ciphers[cipherMethod];
-	
+
 					console.log(`  ${cipherFamily.name} ciphers:`);
-	
+
 					for (const cipher of cipherFamily.enabled) {
 						console.log(`    ${cipher}`);
 					}
