@@ -1,6 +1,6 @@
 # ssl-peeker
 
-Checks a host for SSL info, like who the certificate was issued to, who it was issued by, when it's valid, what protocols are enabled, and what ciphers are available.
+Checks a host for SSL info, like who the certificate was issued to, who it was issued by, when it's valid, what protocols are enabled, and what ciphers are available.  Basically just a simple GUI for parts of [sslinfo](https://github.com/iamthechad/sslinfo).
 
 ### Installation
 
