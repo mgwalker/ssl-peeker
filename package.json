@@ -1,6 +1,6 @@
 {
   "name": "ssl-peeker",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Get info about a server's SSL/TLS certificates and capabilities",
   "main": "bin/main.js",
   "keywords": [
