@@ -2,7 +2,37 @@
 
 const sslinfo = require("sslinfo");
 const chalk = require("chalk");
+const tlsHandshake = require("./tls/tls-handshake");
 
+const ciphers = require("../ciphers.json");
+const cipherIDs = [ ];
+for(let cipher of ciphers) {
+	cipherIDs.push(...cipher.id);
+}
+
+function getCipherName(id) {
+	for(let cipher of ciphers) {
+		if(cipher.id[0] == id[0] && cipher.id[1] == id[1]) {
+			return cipher.name;
+		}
+	}
+}
+
+//process.exit(0);
+//*/
+
+const host = process.argv[2];
+
+tlsHandshake(host, cipherIDs, "TLSv1.0")
+	.then(msg => {
+		console.log(`Server supports ${msg.tlsVersion} with cipher suite ${getCipherName(msg.cipherSuite)}`);
+	})
+	.catch(e => {
+		console.error("Error:");
+		console.error(e);
+	});
+
+/*
 if (process.argv.length < 3) {
 	console.log();
 	console.log("Usage: ssl-peeker <host> [port]");
@@ -51,3 +81,4 @@ if (process.argv.length < 3) {
 			console.log(error);
 		});
 }
+*/

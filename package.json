@@ -22,8 +22,7 @@
     "ssl-peeker": "bin/main.js"
   },
   "scripts": {
-    "build": "babel --no-comments --compact -d bin src",
-    "prebuild": "cooger-style src/main.js"
+    "build": "babel --no-comments --compact -d bin src"
   },
   "dependencies": {
     "chalk": "^1.1.1",
