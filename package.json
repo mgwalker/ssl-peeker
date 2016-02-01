@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "chalk": "^1.1.1",
+    "nbqueue": "0.0.5",
+    "progress": "^1.1.8",
     "sslinfo": "^0.1.5"
   },
   "devDependencies": {
