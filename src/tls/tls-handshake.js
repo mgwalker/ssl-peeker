@@ -111,7 +111,7 @@ module.exports = function tlsHandshake(host, cipherSuites = [ ], tlsVersion = "T
 			}
 			tlsSocket.end();
 		});
-		tlsSocket.on("error", (...stuff) => { });
+		tlsSocket.on("error", (...stuff) => reject("Connection error"));
 		tlsSocket.on("end", () => reject("Connection closed without resolution"));
 	});
 }
