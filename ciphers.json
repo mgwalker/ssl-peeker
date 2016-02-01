@@ -1,1278 +1,2334 @@
 [
   {
-    "name": "TLS_NULL_WITH_NULL_NULL",
-    "id": [ 0, 0 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_NULL_MD5",
-    "id": [ 0, 1 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_NULL_SHA",
-    "id": [ 0, 2 ]
-  },
-  {
-    "name": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
-    "id": [ 0, 3 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_RC4_128_MD5",
-    "id": [ 0, 4 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_RC4_128_SHA",
-    "id": [ 0, 5 ]
-  },
-  {
-    "name": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
-    "id": [ 0, 6 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_IDEA_CBC_SHA",
-    "id": [ 0, 7 ]
-  },
-  {
-    "name": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 8 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_DES_CBC_SHA",
-    "id": [ 0, 9 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 10 ]
-  },
-  {
-    "name": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 11 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_DES_CBC_SHA",
-    "id": [ 0, 12 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 13 ]
-  },
-  {
-    "name": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 14 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_DES_CBC_SHA",
-    "id": [ 0, 15 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 16 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 17 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
-    "id": [ 0, 18 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 19 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 20 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
-    "id": [ 0, 21 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 22 ]
-  },
-  {
-    "name": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
-    "id": [ 0, 23 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_RC4_128_MD5",
-    "id": [ 0, 24 ]
-  },
-  {
-    "name": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
-    "id": [ 0, 25 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_DES_CBC_SHA",
-    "id": [ 0, 26 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 27 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_DES_CBC_SHA",
-    "id": [ 0, 30 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 31 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_RC4_128_SHA",
-    "id": [ 0, 32 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_IDEA_CBC_SHA",
-    "id": [ 0, 33 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_DES_CBC_MD5",
-    "id": [ 0, 34 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_3DES_EDE_CBC_MD5",
-    "id": [ 0, 35 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_RC4_128_MD5",
-    "id": [ 0, 36 ]
-  },
-  {
-    "name": "TLS_KRB5_WITH_IDEA_CBC_MD5",
-    "id": [ 0, 37 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA",
-    "id": [ 0, 38 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA",
-    "id": [ 0, 39 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_RC4_40_SHA",
-    "id": [ 0, 40 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5",
-    "id": [ 0, 41 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5",
-    "id": [ 0, 42 ]
-  },
-  {
-    "name": "TLS_KRB5_EXPORT_WITH_RC4_40_MD5",
-    "id": [ 0, 43 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_NULL_SHA",
-    "id": [ 0, 44 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_NULL_SHA",
-    "id": [ 0, 45 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_NULL_SHA",
-    "id": [ 0, 46 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 47 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 48 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 49 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 50 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 51 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 52 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 53 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 54 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 55 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 56 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 57 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 58 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_NULL_SHA256",
-    "id": [ 0, 59 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 60 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 61 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 62 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 63 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 64 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 65 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 66 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 67 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 68 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 69 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
-    "id": [ 0, 70 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 103 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 104 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 105 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 106 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 107 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 108 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
-    "id": [ 0, 109 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 132 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 133 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 134 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 135 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 136 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
-    "id": [ 0, 137 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_RC4_128_SHA",
-    "id": [ 0, 138 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 139 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 140 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 141 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_RC4_128_SHA",
-    "id": [ 0, 142 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 143 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 144 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 145 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_RC4_128_SHA",
-    "id": [ 0, 146 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 0, 147 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA",
-    "id": [ 0, 148 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA",
-    "id": [ 0, 149 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_SEED_CBC_SHA",
-    "id": [ 0, 150 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_SEED_CBC_SHA",
-    "id": [ 0, 151 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_SEED_CBC_SHA",
-    "id": [ 0, 152 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_SEED_CBC_SHA",
-    "id": [ 0, 153 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_SEED_CBC_SHA",
-    "id": [ 0, 154 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_SEED_CBC_SHA",
-    "id": [ 0, 155 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 156 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 157 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 158 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 159 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 160 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 161 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 162 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 163 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 164 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 165 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 166 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 167 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 168 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 169 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 170 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 171 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
-    "id": [ 0, 172 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
-    "id": [ 0, 173 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 174 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_256_CBC_SHA384",
-    "id": [ 0, 175 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_NULL_SHA256",
-    "id": [ 0, 176 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_NULL_SHA384",
-    "id": [ 0, 177 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 178 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
-    "id": [ 0, 179 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_NULL_SHA256",
-    "id": [ 0, 180 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_NULL_SHA384",
-    "id": [ 0, 181 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
-    "id": [ 0, 182 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
-    "id": [ 0, 183 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_NULL_SHA256",
-    "id": [ 0, 184 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_NULL_SHA384",
-    "id": [ 0, 185 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 186 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 187 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 188 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 189 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 190 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 0, 191 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 192 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 193 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 194 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 195 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 196 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
-    "id": [ 0, 197 ]
-  },
-  {
-    "name": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV",
-    "id": [ 0, 255 ]
-  },
-  {
-    "name": "TLS_FALLBACK_SCSV",
-    "id": [ 86, 0 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_NULL_SHA",
-    "id": [ 192, 1 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA",
-    "id": [ 192, 2 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 3 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 4 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 5 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
-    "id": [ 192, 6 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA",
-    "id": [ 192, 7 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 8 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 9 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 10 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_NULL_SHA",
-    "id": [ 192, 11 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_RC4_128_SHA",
-    "id": [ 192, 12 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 13 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 14 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 15 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_NULL_SHA",
-    "id": [ 192, 16 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_RC4_128_SHA",
-    "id": [ 192, 17 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 18 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 19 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 20 ]
-  },
-  {
-    "name": "TLS_ECDH_anon_WITH_NULL_SHA",
-    "id": [ 192, 21 ]
-  },
-  {
-    "name": "TLS_ECDH_anon_WITH_RC4_128_SHA",
-    "id": [ 192, 22 ]
-  },
-  {
-    "name": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 23 ]
-  },
-  {
-    "name": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 24 ]
-  },
-  {
-    "name": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 25 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 26 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 27 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 28 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 29 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 30 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 31 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 32 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 33 ]
-  },
-  {
-    "name": "TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 34 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 192, 35 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
-    "id": [ 192, 36 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 192, 37 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
-    "id": [ 192, 38 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 192, 39 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
-    "id": [ 192, 40 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256",
-    "id": [ 192, 41 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384",
-    "id": [ 192, 42 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 192, 43 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 192, 44 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 192, 45 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 192, 46 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 192, 47 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 192, 48 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256",
-    "id": [ 192, 49 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384",
-    "id": [ 192, 50 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_RC4_128_SHA",
-    "id": [ 192, 51 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA",
-    "id": [ 192, 52 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA",
-    "id": [ 192, 53 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA",
-    "id": [ 192, 54 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256",
-    "id": [ 192, 55 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384",
-    "id": [ 192, 56 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_NULL_SHA",
-    "id": [ 192, 57 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_NULL_SHA256",
-    "id": [ 192, 58 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_NULL_SHA384",
-    "id": [ 192, 59 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 60 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 61 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 62 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 63 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 64 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 65 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 66 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 67 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 68 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 69 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 70 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 71 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 72 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 73 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 74 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 75 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 76 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 77 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 78 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 79 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 80 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 81 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 82 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 83 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 84 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 85 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 86 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 87 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 88 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 89 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 90 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 91 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 92 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 93 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 94 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 95 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 96 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 97 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 98 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 99 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 100 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 101 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 102 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 103 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 104 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 105 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 106 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 107 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 108 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 109 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256",
-    "id": [ 192, 110 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384",
-    "id": [ 192, 111 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256",
-    "id": [ 192, 112 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384",
-    "id": [ 192, 113 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 114 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 115 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 116 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 117 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 118 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 119 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 120 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 121 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 122 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 123 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 124 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 125 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 126 ]
-  },
-  {
-    "name": "TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 127 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 128 ]
-  },
-  {
-    "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 129 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 130 ]
-  },
-  {
-    "name": "TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 131 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 132 ]
-  },
-  {
-    "name": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 133 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 134 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 135 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 136 ]
-  },
-  {
-    "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 137 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 138 ]
-  },
-  {
-    "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 139 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 140 ]
-  },
-  {
-    "name": "TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 141 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 142 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 143 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 144 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 145 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
-    "id": [ 192, 146 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
-    "id": [ 192, 147 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 148 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 149 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 150 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 151 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 152 ]
-  },
-  {
-    "name": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 153 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
-    "id": [ 192, 154 ]
-  },
-  {
-    "name": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
-    "id": [ 192, 155 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_128_CCM",
-    "id": [ 192, 156 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_256_CCM",
-    "id": [ 192, 157 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_128_CCM",
-    "id": [ 192, 158 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_256_CCM",
-    "id": [ 192, 159 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_128_CCM_8",
-    "id": [ 192, 160 ]
-  },
-  {
-    "name": "TLS_RSA_WITH_AES_256_CCM_8",
-    "id": [ 192, 161 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
-    "id": [ 192, 162 ]
-  },
-  {
-    "name": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
-    "id": [ 192, 163 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_128_CCM",
-    "id": [ 192, 164 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_256_CCM",
-    "id": [ 192, 165 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_128_CCM",
-    "id": [ 192, 166 ]
-  },
-  {
-    "name": "TLS_DHE_PSK_WITH_AES_256_CCM",
-    "id": [ 192, 167 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_128_CCM_8",
-    "id": [ 192, 168 ]
-  },
-  {
-    "name": "TLS_PSK_WITH_AES_256_CCM_8",
-    "id": [ 192, 169 ]
-  },
-  {
-    "name": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
-    "id": [ 192, 170 ]
-  },
-  {
-    "name": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
-    "id": [ 192, 171 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
-    "id": [ 192, 172 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
-    "id": [ 192, 173 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
-    "id": [ 192, 174 ]
-  },
-  {
-    "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
-    "id": [ 192, 175 ]
+    "id": [
+      0,
+      0
+    ],
+    "keyExchange": "NULL",
+    "authentication": "NULL",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "NULL"
+  },
+  {
+    "id": [
+      0,
+      1
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      2
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      3
+    ],
+    "keyExchange": "RSA_EXPORT",
+    "authentication": "RSA_EXPORT",
+    "encryption": "RC4_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      4
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      5
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      6
+    ],
+    "keyExchange": "RSA_EXPORT",
+    "authentication": "RSA_EXPORT",
+    "encryption": "RC2_CBC_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      7
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "IDEA_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      8
+    ],
+    "keyExchange": "RSA_EXPORT",
+    "authentication": "RSA_EXPORT",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      9
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      10
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      11
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      12
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      13
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      14
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      15
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      16
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      17
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      18
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      19
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      20
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      21
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      22
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      23
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "RC4_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      24
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      25
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "DES40_CBC",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      26
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      27
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      28
+    ],
+    "keyExchange": "FORTEZZA",
+    "authentication": "KEA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      29
+    ],
+    "keyExchange": "FORTEZZA",
+    "authentication": "KEA",
+    "encryption": "FORTEZZA_CBC",
+    "bits": 80,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      30
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      31
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      32
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      33
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "IDEA_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      34
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      35
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      36
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      37
+    ],
+    "keyExchange": "KRB5",
+    "authentication": "KRB5",
+    "encryption": "IDEA_CBC",
+    "bits": 128,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      38
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "DES_CBC_40",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      39
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "RC2_CBC_40",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      40
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "RC4_40",
+    "bits": 40,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      41
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "DES_CBC_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      42
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "RC2_CBC_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      43
+    ],
+    "keyExchange": "KRB5_EXPORT",
+    "authentication": "KRB5_EXPORT",
+    "encryption": "RC4_40",
+    "bits": 40,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      44
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      45
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      46
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      47
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      48
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      49
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      50
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      51
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      52
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      53
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      54
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      55
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      56
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      57
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      58
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      59
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      60
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      61
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      62
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      63
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      64
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      65
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      66
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      67
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      68
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      69
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      70
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "CAMELLIA_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      71
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      72
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      73
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      74
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      75
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      76
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      96
+    ],
+    "keyExchange": "RSA_EXPORT 1024",
+    "authentication": "RSA_EXPORT 1024",
+    "encryption": "RC4_56",
+    "bits": 56,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      97
+    ],
+    "keyExchange": "RSA_EXPORT 1024",
+    "authentication": "RSA_EXPORT 1024",
+    "encryption": "RC2_CBC_56",
+    "bits": 56,
+    "mac": "MD5"
+  },
+  {
+    "id": [
+      0,
+      98
+    ],
+    "keyExchange": "RSA_EXPORT 1024",
+    "authentication": "RSA_EXPORT 1024",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      99
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      100
+    ],
+    "keyExchange": "RSA_EXPORT 1024",
+    "authentication": "RSA_EXPORT 1024",
+    "encryption": "RC4_56",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      101
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "RC4_56",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      102
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      103
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      104
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      105
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      106
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      107
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      108
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      109
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      128
+    ],
+    "keyExchange": "VKO GOST R 34.10-94",
+    "authentication": "VKO GOST R 34.10-94",
+    "encryption": "GOST28147",
+    "bits": 256,
+    "mac": "GOST28147"
+  },
+  {
+    "id": [
+      0,
+      129
+    ],
+    "keyExchange": "VKO GOST R 34.10-2001",
+    "authentication": "VKO GOST R 34.10-2001",
+    "encryption": "GOST28147",
+    "bits": 256,
+    "mac": "GOST28147"
+  },
+  {
+    "id": [
+      0,
+      130
+    ],
+    "keyExchange": "VKO GOST R 34.10-94",
+    "authentication": "VKO GOST R 34.10-94",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "GOSTR3411"
+  },
+  {
+    "id": [
+      0,
+      131
+    ],
+    "keyExchange": "VKO GOST R 34.10-2001",
+    "authentication": "VKO GOST R 34.10-2001",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "GOSTR3411"
+  },
+  {
+    "id": [
+      0,
+      132
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      133
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      134
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      135
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      136
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      137
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "CAMELLIA_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      138
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      139
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      140
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      141
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      142
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      143
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      144
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      145
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      146
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      147
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      148
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      149
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      150
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      151
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      152
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      153
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      154
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      155
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "SEED_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      0,
+      156
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      157
+    ],
+    "keyExchange": "RSA",
+    "authentication": "RSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      158
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      159
+    ],
+    "keyExchange": "DHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      160
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      161
+    ],
+    "keyExchange": "DH",
+    "authentication": "RSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      162
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      163
+    ],
+    "keyExchange": "DHE",
+    "authentication": "DSS",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      164
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      165
+    ],
+    "keyExchange": "DH",
+    "authentication": "DSS",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      166
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      167
+    ],
+    "keyExchange": "DH",
+    "authentication": "Anon",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      168
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      169
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      170
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      171
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      172
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      173
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      174
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      175
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      176
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      177
+    ],
+    "keyExchange": "PSK",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      178
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      179
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      180
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      181
+    ],
+    "keyExchange": "DHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      182
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      183
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      0,
+      184
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      0,
+      185
+    ],
+    "keyExchange": "RSA",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      1
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      2
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      3
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      4
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      5
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      6
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      7
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      8
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      9
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      10
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      11
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      12
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      13
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      14
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      15
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      16
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      17
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      18
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      19
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      20
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      21
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "Anon",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      22
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "Anon",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      23
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "Anon",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      24
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "Anon",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      25
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "Anon",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      26
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      27
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      28
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      29
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      30
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      31
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      32
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      33
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      34
+    ],
+    "keyExchange": "SRP",
+    "authentication": "SHA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      35
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      36
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      37
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      38
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      39
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      40
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      41
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      42
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      43
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      44
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      45
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      46
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "ECDSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      47
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      48
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "RSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      49
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_128_GCM",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      50
+    ],
+    "keyExchange": "ECDH",
+    "authentication": "RSA",
+    "encryption": "AES_256_GCM",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      51
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "RC4_128",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      52
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      53
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      54
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      55
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "AES_128_CBC",
+    "bits": 128,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      56
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "AES_256_CBC",
+    "bits": 256,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      192,
+      57
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      192,
+      58
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA256"
+  },
+  {
+    "id": [
+      192,
+      59
+    ],
+    "keyExchange": "ECDHE",
+    "authentication": "PSK",
+    "encryption": "NULL",
+    "bits": 0,
+    "mac": "SHA384"
+  },
+  {
+    "id": [
+      254,
+      254
+    ],
+    "keyExchange": "RSA_FIPS",
+    "authentication": "RSA_FIPS",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      254,
+      255
+    ],
+    "keyExchange": "RSA_FIPS",
+    "authentication": "RSA_FIPS",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      255,
+      224
+    ],
+    "keyExchange": "RSA_FIPS",
+    "authentication": "RSA_FIPS",
+    "encryption": "3DES_EDE_CBC",
+    "bits": 168,
+    "mac": "SHA"
+  },
+  {
+    "id": [
+      255,
+      225
+    ],
+    "keyExchange": "RSA_FIPS",
+    "authentication": "RSA_FIPS",
+    "encryption": "DES_CBC",
+    "bits": 56,
+    "mac": "SHA"
   }
 ]

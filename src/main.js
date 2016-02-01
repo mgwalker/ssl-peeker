@@ -14,7 +14,7 @@ for(let cipher of ciphers) {
 function getCipherName(id) {
 	for(let cipher of ciphers) {
 		if(cipher.id[0] == id[0] && cipher.id[1] == id[1]) {
-			return cipher.name;
+			return `${cipher.keyExchange} key exchange with ${cipher.authentication} authentication, using ${cipher.bits}-bit ${cipher.encryption} encryption (${cipher.mac} MAC)`;
 		}
 	}
 }
@@ -26,8 +26,8 @@ const sslVersions = [
 ];
 
 const progress = new (require("progress"))("Testing ciphers [:bar] :current/:total (:percent) :etas", {
-	complete: "=",
-	incomplete: " ",
+	incomplete: "░",
+	complete: chalk.green.bold("▓"),
 	width: 40,
 	total: sslVersions.length * ciphers.length
 });
@@ -43,7 +43,7 @@ function tick(next, sslVersion, cipherID, pass) {
 	setTimeout(next, 300);
 }
 
-const queue = new (require("nbqueue"))(10);
+const queue = new (require("nbqueue"))(25);
 const promises = [ ];
 for(let sslVersion of sslVersions) {
 	tlsChecks[sslVersion] = [ ];
